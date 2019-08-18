@@ -5,7 +5,7 @@ description: >
   Does seasonality really exists and profitable?
 ---
 
-There are many interesting seasonal patterns where you can use on your investment decisions. Although there are only few people talk about this. 
+There are many interesting seasonal patterns where you can use on your investment decisions. Although there are only a few people talk about this. 
 
 These seasonal effects are well-known and said profitable on most types of markets.
 Announcement Days is one of the popular seasonal events where everyone is waiting for as it can push huge pumps for positive stories or a negative swing. I wonder if we can make money by determining when to trade based on repeating events that are moved by economic factors and find evidence of this. Is this how easy trading based on seasonality? Does this mean that we are printing money on these repeating events? Is this a billion-dollar strategy with the secret edge? Oh maybe you can “Sell in May, Go Away!” thing since someone told me that stocks are historically underperforming from May to October? Don’t get too excited. Always remember that
