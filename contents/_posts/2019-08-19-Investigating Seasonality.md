@@ -1,6 +1,6 @@
 ---
 title: Investigating Seasonality
-image: /assets/img/blog/seasonalitybg.JPG
+image: /assets/img/blog/seasonalitybg.jpg
 description: >
   Does seasonality really exists and profitable?
 ---
