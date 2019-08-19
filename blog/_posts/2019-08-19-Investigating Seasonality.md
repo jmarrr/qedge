@@ -1,6 +1,6 @@
 ---
 title: Investigating Seasonality
-image: assets/img/blog/seasonalitybg.jpg
+image: /assets/img/blog/seasonalitybg.jpg
 description: >
   Does seasonality really exists and profitable?
 ---
@@ -29,11 +29,11 @@ Okay, so now at least some people observe this effect and it's up to us to inves
 
 Lets take a quick look on monthly return if we just go Long position on the whole year.
 
-![Full-width image](assets/img/blog/seasonality/monthly-returns.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/monthly-returns.png){:.lead data-width="800" data-height="100"}
 
 Hmmm ... December has the highest return from 2002 - 2018, Interestingly January has weak returns. Is this what we are looking for? Let us compare December and January again side by side to have a clearer outlook.
 
-![Full-width image](assets/img/blog/seasonality/dec-jan-returns.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/dec-jan-returns.png){:.lead data-width="800" data-height="100"}
 
 It looks random now, we cannot guarantee a seasonal pattern here, it may be profitable from 2008-2012 but the following years did the effect lost its edge? what the heck happened last 2013? Is it because of typhoon Yolanda on November that wrecks most BDO office then recovered on January?   
 
@@ -42,20 +42,20 @@ This is why we have to embrace the uncertainty, in the market we cannot guarante
 Alright, let's go back and see the last piece of the puzzle that we are trying to look for in the January Effect. We are going to check whether the returns are stable across different years, We have only looked into 2 charts from 2002-2019 and that's not enough to make a wrap-up.
 
 2012-2016
-![Full-width image](assets/img/blog/seasonality/2012-2016.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/2012-2016.png){:.lead data-width="800" data-height="100"}
 
 2013-2017
-![Full-width image](assets/img/blog/seasonality/2013-2017.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/2013-2017.png){:.lead data-width="800" data-height="100"}
 
 2014-2018
-![Full-width image](assets/img/blog/seasonality/2014-2018.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/2014-2018.png){:.lead data-width="800" data-height="100"}
 
 I don't think there's a seasonal January effect on BDO. Do you think that it would exist on other tickers? and market like currencies? Who knows maybe I am just unlucky in selecting which asset to analyze.
 
 Before we move on to the next seasonal effect, this is the running total return in years if we go Long from 2012-2019
 
 
-![Full-width image](assets/img/blog/seasonality/january-effect.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/january-effect.png){:.lead data-width="800" data-height="100"}
 
 I'll leave to you interpreting the chart, is it safe to invest in December? Is the effect changing regime? this might be no brainer to others because of the holidays.  
 
@@ -69,17 +69,17 @@ This is the “Sell in May and Go Away” trade!
 
 Okay, let's inspect additional stock for this effect. First, we are going to take a quick look into SM monthly returns for 2005-2019
 
-![Full-width image](assets/img/blog/seasonality/sm-monthly-returns.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/sm-monthly-returns.png){:.lead data-width="800" data-height="100"}
 
 
 How about in BDO?
 
-![Full-width image](assets/img/blog/seasonality/monthly-returns.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/monthly-returns.png){:.lead data-width="800" data-height="100"}
 
 We should expect that the returns are higher between November and April and low between May and October. Did you observe a Halloween effect based on the two charts?
 let's combine both tickers and plot them to make it neat
 
-![Full-width image](assets/img/blog/seasonality/smbdo-monthly-returns.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/smbdo-monthly-returns.png){:.lead data-width="800" data-height="100"}
 
 
 
@@ -92,11 +92,11 @@ Here show the annual returns of stock if we go Long on Ghost Month
 
 SM
 
-![Full-width image](assets/img/blog/seasonality/sm-ghost.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/sm-ghost.png){:.lead data-width="800" data-height="100"}
 
 BDO 
 
-![Full-width image](assets/img/blog/seasonality/bdo-ghost.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/bdo-ghost.png){:.lead data-width="800" data-height="100"}
 
 ### Turn of Month
 Stock returns have tended to be higher in the days before and after the end of the month.
@@ -107,8 +107,8 @@ Stock returns have tended to be higher in the days before and after the end of t
 
 This part is highly intuitive to look at, we should expect a high returns of the first and last trading day of the month. 
 
-![Full-width image](assets/img/blog/seasonality/smbdo-firstday.png){:.lead data-width="800" data-height="100"}
-![Full-width image](assets/img/blog/seasonality/smbdo-lastday.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/smbdo-firstday.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/smbdo-lastday.png){:.lead data-width="800" data-height="100"}
 
 
 Nice, the chart looks good though there are some drawdowns on BDO for January, March, and August for the first trading day of the month and a huge drawdown for SM on May then minimal on October, not perfect but good in general. For the end of the month, negative returns only in January and December and SM has another huge negative on November and May. Can we say that we are underlying seasonality on every Turn of the Month? can we profit out of these insights? Who knows maybe it is or isn't the only way to find out is to backtest and that's another topic that will be covered in the future.
@@ -117,7 +117,7 @@ Nice, the chart looks good though there are some drawdowns on BDO for January, M
 ### Announcement Days
 Average asset returns tend to be higher on earnings announcement days. 
 
-Also,assets tend to trend strongly ahead of important information announcements. So you might want to look at trading short term momentum strategies on:
+Also,/assets tend to trend strongly ahead of important information announcements. So you might want to look at trading short term momentum strategies on:
 
 + Earnings Announcement
 + Economic Data Annoucement
@@ -131,8 +131,8 @@ This strategy focuses on market psychology and historical data. When traders pee
 
 Here is some of the  historic price curve of BDO on every Quarterly Report
 
-![Full-width image](assets/img/blog/seasonality/bdoq2.png){:.lead data-width="800" data-height="100"}
-![Full-width image](assets/img/blog/seasonality/bdo2018anual.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/bdoq2.png){:.lead data-width="800" data-height="100"}
+![Full-width image](/assets/img/blog/seasonality/bdo2018anual.png){:.lead data-width="800" data-height="100"}
 
 Feel free to check this out on investagrams and share what you have observed. Did the reports reflect on the change of price as expected? How do we anticipate these future result before the announcement? 
 
